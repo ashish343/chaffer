@@ -36,6 +36,7 @@
             <ul class="list-unstyled in" id="menu3">
                 <li><a href="#"><i class="glyphicon glyphicon-circle"></i> Facebook</a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-circle"></i> Twitter</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-circle"></i> Zomato</a></li>
             </ul>
         </li>
       </ul>
