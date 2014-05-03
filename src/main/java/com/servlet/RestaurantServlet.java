@@ -16,7 +16,7 @@ public class RestaurantServlet extends HttpServlet {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	@Override
+	@Override	
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 

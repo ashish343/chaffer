@@ -1,13 +1,19 @@
-<%@ include file="/WEB-INF/jsp/NavigationBar/top_navbar.jsp" %>
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>Chaffer</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
 <!-- Main -->
+<%@ include file="/WEB-INF/jsp/NavigationBar/top_navbar.jsp" %>
 <div class="container">
 <div class="row">
 	<div class="col-md-3">
       <!-- Left column -->
-              
-      
-      
       <ul class="list-unstyled">
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
           <h5>Options <i class="glyphicon glyphicon-chevron-down"></i></h5>
