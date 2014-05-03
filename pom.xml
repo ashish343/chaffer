@@ -88,7 +88,7 @@
                 <assembleDirectory>target</assembleDirectory>
                 <programs>
                     <program>
-                        <mainClass>launch.Main</mainClass>
+                        <mainClass>com.launch.Main</mainClass>
                         <name>webapp</name>
                     </program>
                 </programs>
