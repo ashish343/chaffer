@@ -67,19 +67,19 @@
                   </div>
                   <div class="panel-body">
                     
-                    <small>Discount Coupon 1</small>
+                    <small>Discount Coupon 1<span class="glyphicon glyphicon-edit" style="float: right;"></span></a></small>
                     <div class="progress">
                       <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%">
                         <span class="sr-only">72% Complete</span>
                       </div>
                     </div>
-                    <small>Discount Coupon 2</small>
+                    <small>Discount Coupon 2<span class="glyphicon glyphicon-edit" style="float: right;"></span></a></small>
                     <div class="progress">
                       <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
                         <span class="sr-only">20% Complete</span>
                       </div>
                     </div>
-                    <small>Discount Coupon 3</small>
+                    <small>Discount Coupon 3<span class="glyphicon glyphicon-edit" style="float: right;"></span></a></small>
                     <div class="progress">
                       <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                         <span class="sr-only">60% Complete (warning)</span>
@@ -306,28 +306,34 @@
         <h4 class="modal-title">Add Discount Coupon</h4>
       </div>
       <div class="modal-body">
+      	
+      
         <form class="form-horizontal" role="form">
+        	
 	  		<div class="form-group">
-				<label for="inputEmail3" class="col-sm-2 control-label">Title</label>
-				<div class="col-sm-10">
-				  <input type="text" class="form-control" id="inputEmail3" placeholder="Email">
+				<label for="inputEmail3" class="col-sm-3 control-label">Title</label>
+				<div class="col-sm-9">
+				  <input type="text" class="form-control" id="inputEmail3" placeholder="Title">
 				</div>
 	 		</div>
 			<div class="form-group">
-			  <label for="inputPassword3" class="col-sm-2 control-label">Start Time</label>
-			  <div class="col-sm-10">
-			    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+			  <label for="inputPassword3" class="col-sm-3 control-label">Start Time</label>
+			  <div class="col-sm-9">
+			  <input type="datetime-local" class = "form-control" id="start_date" placeholder="start_date">			    
 			  </div>
 			</div>
 			<div class="form-group">
-			  <div class="col-sm-offset-2 col-sm-10">
-			    <div class="checkbox">
-			      <label>
-			        <input type="checkbox"> Remember me
-			      </label>
-			    </div>
+			  <label for="inputPassword3" class="col-sm-3 control-label">End Time</label>
+			  <div class="col-sm-9">
+			  <input type="datetime-local" class = "form-control" id="end_date" placeholder="end_date">			    
 			  </div>
 			</div>
+			<div class="form-group">
+				<label for="inputEmail3" class="col-sm-3 control-label">Number of Discount Coupons</label>
+				<div class="col-sm-9">
+				  <input type="text" class="form-control" id="deal_count" placeholder="Number of Deal Coupons">
+				</div>
+	 		</div>			
 			
 		</form>
       </div>
