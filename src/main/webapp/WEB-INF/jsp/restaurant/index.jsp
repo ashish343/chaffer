@@ -11,7 +11,7 @@
     <body>
 <!-- Main -->
 <%@ include file="/WEB-INF/jsp/NavigationBar/top_navbar.jsp" %>
-<div class="container">
+<div class="container" style="margin-top:75px;">
 <div class="row">
 	<div class="col-md-3">
       <!-- Left column -->
