@@ -66,20 +66,26 @@
                   </h4> 
                   </div>
                   <div class="panel-body">
-                    
-                    <small>Discount Coupon 1<span class="glyphicon glyphicon-edit" style="float: right;"></span></a></small>
+                    <%@ include file="/WEB-INF/jsp/restaurant/deal_item.jsp" %>
+                    <small>Discount Coupon 1</small>
+                    <a title="Add Widget" data-toggle="modal" href="#addDealModal" style="float: right;"><span class="glyphicon glyphicon-minus-sign" ></span></a>
+                    <a title="Add Widget" data-toggle="modal" href="#addDealModal" style="float: right;padding-right: 3px"><span class="glyphicon glyphicon-edit" ></span></a>
                     <div class="progress">
                       <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%">
                         <span class="sr-only">72% Complete</span>
                       </div>
                     </div>
-                    <small>Discount Coupon 2<span class="glyphicon glyphicon-edit" style="float: right;"></span></a></small>
+                    <small>Discount Coupon 2</small>
+                    <a title="Add Widget" data-toggle="modal" href="#addDealModal" style="float: right;"><span class="glyphicon glyphicon-minus-sign" ></span></a>
+                    <a title="Add Widget" data-toggle="modal" href="#addDealModal" style="float: right;padding-right: 3px"><span class="glyphicon glyphicon-edit" ></span></a>
                     <div class="progress">
                       <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
                         <span class="sr-only">20% Complete</span>
                       </div>
                     </div>
-                    <small>Discount Coupon 3<span class="glyphicon glyphicon-edit" style="float: right;"></span></a></small>
+                    <small>Discount Coupon 3</small>
+                    <a title="Add Widget" data-toggle="modal" href="#addDealModal" style="float: right;"><span class="glyphicon glyphicon-minus-sign" ></span></a>
+                    <a title="Add Widget" data-toggle="modal" href="#addDealModal" style="float: right;padding-right: 3px"><span class="glyphicon glyphicon-edit" ></span></a>                    
                     <div class="progress">
                       <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                         <span class="sr-only">60% Complete (warning)</span>
