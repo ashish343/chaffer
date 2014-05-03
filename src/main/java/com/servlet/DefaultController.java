@@ -27,19 +27,7 @@ public class DefaultController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String now = (new Date()).toString();
-        HttpSession session = request.getSession();
-        ServletContext sc = session.getServletContext();
-        String x = sc.getRealPath("/");
-        String host = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort(); 
-        
-        //ServletOutputStream out = response.getOutputStream();
-        //out.write(host.getBytes());
-        //out.flush();
-        
-        request.setAttribute("path", host);
-        request.setAttribute("now", now);
-        request.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/jsp/website/home.jsp").forward(request, response);
     }
     
     @Override
